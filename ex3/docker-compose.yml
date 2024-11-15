@@ -1,0 +1,10 @@
+version: "3.8"
+services: 
+    minhi_db:
+        image: mysql
+        container_name: minhi_db
+        ports:
+            - 3307:3306
+        environment:
+            MYSQL_ROOT_PASSWORD: 1234
+            MYSQL_DATEBASE: minhi

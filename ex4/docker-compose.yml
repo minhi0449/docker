@@ -1,0 +1,34 @@
+version: "3.8“
+services:
+  sboard_db:
+  image: mysql
+  container_name: sboard_db
+  restart: always
+  ports:
+    - 3307:3306
+  environment:
+    MYSQL_ROOT_PASSWORD: 1234
+    MYSQL_DATABASE: root
+    MYSQL_USER: root
+    MYSQL_PASSWORD: 1234
+    ports:
+    - 3307:3306
+  volumes:
+  - ./db/mysql/data:/var/lib/mysql
+  networks:
+  - springboot-mysql-net
+
+sboard_app:
+  build: .
+  container_name: sboard_app
+  restart: always
+  ports:
+    - 8080:8080
+  depends_on:
+   - sboard_db
+  networks:
+    - springboot-mysql-net
+
+networks:
+  springboot-mysql-net:
+    driver: bridge
