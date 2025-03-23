@@ -1,11 +1,8 @@
 # Docker Study
 > Docker 학습 및 실습코드
 
-# Docker Study
-> Docker 공부 및 실습 코드
-
 <h2>🛠 사용 기술</h2>
-<div align="center">
+<div align="left">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=Apache&logoColor=white" alt="Apache" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
@@ -89,7 +86,7 @@ services:
 - 포트 매핑을 통한 외부 접근 허용
 
 ### ex4: Spring Boot + MySQL 연동 애플리케이션
-<div align="center">
+<div align="left">
   <img src="https://img.shields.io/badge/Docker Compose-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker Compose" />
   <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat-square&logo=Spring Boot&logoColor=white" alt="Spring Boot">
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
