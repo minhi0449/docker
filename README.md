@@ -1,6 +1,7 @@
 # Docker Study
 > Docker 학습 및 실습코드
 
+
 <h2>🛠 사용 기술</h2>
 <div align="left">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
@@ -12,6 +13,7 @@
   <img src="https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&logo=yaml&logoColor=white" alt="YAML" />
   <img src="https://img.shields.io/badge/Docker Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Compose" />
 </div>
+
 
 ## 예제 구성
 
@@ -25,7 +27,7 @@
 ## 예제 상세 설명
 
 ### ex1: Apache 웹 서버 컨테이너
-<div align="center">
+<div align="left">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/Apache-D22128?style=flat-square&logo=Apache&logoColor=white" alt="Apache" />
   <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML" />
@@ -42,7 +44,7 @@ COPY ./index.html /usr/local/apache2/htdocs
 - 간단한 HTML을 통해 컨테이너화된 웹 서버 구현
 
 ### ex2: Java 애플리케이션 컨테이너
-<div align="center">
+<div align="left">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/OpenJDK-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="OpenJDK" />
@@ -61,7 +63,7 @@ ENTRYPOINT ["java", "-jar", "app.jar"]
 - 컨테이너 시작 시 자바 애플리케이션 자동 실행
 
 ### ex3: MySQL 데이터베이스 컨테이너
-<div align="center">
+<div align="left">
   <img src="https://img.shields.io/badge/Docker Compose-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker Compose" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
   <img src="https://img.shields.io/badge/YAML-CB171E?style=flat-square&logo=yaml&logoColor=white" alt="YAML" />
@@ -136,7 +138,7 @@ networks:
 
 ## 실행 방법
 
-<div align="center">
+<div align="left">
   <img src="https://img.shields.io/badge/CLI-4D4D4D?style=for-the-badge&logo=windows%20terminal&logoColor=white" alt="Command Line Interface" />
 </div>
 
@@ -173,7 +175,7 @@ MySQL 접속: localhost:3307 (사용자: root, 비밀번호: 1234)
 
 ## Docker 기본 개념
 
-<div align="center">
+<div align="left">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
 </div>
 
@@ -189,7 +191,7 @@ MySQL 접속: localhost:3307 (사용자: root, 비밀번호: 1234)
 
 ## 자주 사용하는 Docker 명령어
 
-<div align="center">
+<div align="left">
   <img src="https://img.shields.io/badge/Docker Commands-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Commands" />
 </div>
 
